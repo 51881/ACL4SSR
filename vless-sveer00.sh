@@ -54,7 +54,7 @@ check_port() {
 # 执行远程安装操作
 install_argo() {
     echo "开始执行远程安装脚本..."
-    bash -c "ARGO_AUTH='$ARGO_AUTH' ARGO_DOMAIN='$ARGO_DOMAIN' CFPORT='$CFPORT' CFIP='$CFIP' ARGO_PORT='$PORT' bash <(curl -Ls https://github.love999.us.kg/onlyno999/xxxxxxxxxx/main/vless/00_vless.sh)"
+    bash -c "ARGO_AUTH='$ARGO_AUTH' ARGO_DOMAIN='$ARGO_DOMAIN' CFPORT='$CFPORT' CFIP='$CFIP' ARGO_PORT='$PORT' bash <(curl -Ls https://raw.githubusercontent.com/51881/ACL4SSR/refs/heads/main/vless-sveer00.sh)"
     
     if [ $? -eq 0 ]; then
         echo "远程安装成功完成。"
